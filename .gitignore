@@ -1,0 +1,19 @@
+# Allowlist: only the project notebooks and a few figures are published.
+# Data (~3.5 GB), HTML map exports, the QGIS project and the morphometric
+# template notebook (Fleischmann et al.'s, not this project's) stay local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/cgis_finalproject_rasters.ipynb
+!/cgis_finalproject_mapping.ipynb
+!/cgis_finalproject_morphometry_v1.ipynb
+!/cgis_finalproject_morphometry_v2.ipynb
+!/cgis_finalproject_clustering.ipynb
+!/cgis_finalproject_econometrics.ipynb
+!/images/
+/images/*
+!/images/poverty_lst.png
+!/images/building_clusters.png
+!/images/tessellation.png
+!/images/correlation_matrix.png
